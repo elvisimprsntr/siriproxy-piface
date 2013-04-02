@@ -1,3 +1,5 @@
+require 'piface'
+require 'yaml'
 
 class SiriProxy::Plugin::PiFace < SiriProxy::Plugin
 
