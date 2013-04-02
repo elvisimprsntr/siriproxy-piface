@@ -21,6 +21,25 @@ The Raspberry Pi is an ARM based single board computer with a number of inputs a
 Installation (New for SiriProxy 0.5.0+)
 ---------------------------------------
 
+
+- Manually load the SPI driver
+
+`modprobe spi-bcm2708`
+
+- Permanently enable the SPI driver by commenting out the SPI module blacklist line.
+
+`vim /etc/modprobe.d/raspi-blacklist.conf`
+
+- Install the [C PiFace library dependancies](https://github.com/thomasmacpherson/piface) 
+
+`apt-get install automake libtool`
+
+`git clone https://github.com/thomasmacpherson/piface.git`
+
+`cd piface/c/`
+
+`./autogen.sh && ./configure && make && sudo make install`
+ 
 - Create a plugins directory  
 
 `mkdir ~/plugins`  
