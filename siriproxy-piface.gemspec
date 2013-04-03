@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "siriproxy", ">=0.5.2"
-  s.add_runtime_dependency "PiFace"
+  s.add_runtime_dependency "piface"
 
 
 end
