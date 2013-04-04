@@ -1,7 +1,7 @@
 ---
 outputs:
   garage door: 1
-  garage record: 2 	
+  garage record: 2
 
 inputs:
   garage door: 1
