@@ -1,0 +1,9 @@
+---
+outputs:
+  garage door: 1
+  garage record: 2 	
+
+inputs:
+  garage door: 1
+  garage motion: 2
+  
