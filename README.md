@@ -12,7 +12,7 @@ Second, you need a [PiFace Digital Interface Board](http://www.farnell.com/datas
 
 Optionally, you can configure siriproxy-piface to push IP camera images to Siri.
 
-I used my RPi and PiFace board, along with SiriProry as a simple voice controlled garage door opener.   This plugin provides instructions and a basic shell for you to modify for your specific interests.  
+I used my RPi, PiFace IO board, along with SiriProry as a simple voice controlled garage door opener.   This plugin provides installation instructions and a basic shell for you to modify for your specific interests.  
 
 I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
