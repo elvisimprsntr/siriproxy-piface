@@ -12,7 +12,7 @@ Second, you need a [PiFace Digital Interface Board](http://www.farnell.com/datas
 
 Optionally, you can configure siriproxy-piface to push IP camera images to Siri.
 
-I used my RPi and PiFace board, along with SiriProry as a simple voice controlled garage door opener. 
+I used my RPi and PiFace board, along with SiriProry as a simple voice controlled garage door opener.   This plugin provides instructions and a basic shell for you to modify for your specific interests.  
 
 I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
@@ -25,6 +25,14 @@ Raspberry Pi and PiFace Digital Interface
 The Raspberry Pi is an ARM based single board computer with a number of inputs and outputs, which can be used to interface with the real world.
 
 The PiFace Digital Interface Board has 8 digital inputs, 8 open collector outputs, 2 relays, 4 switches.  
+
+Public Safety and Liability Warning
+-----------------------------------
+
+Please do not ask me how to wire up various devices to the Piface board since: 
+
+- That is beyond the scope of this plugin. 
+- You need to consider the potential personal injury and property damage liability for using a RPi and PiFace in ways inconsistent with [National Fire Protection Agency (NFPA) - National Electric Code (NEC)](http://www.nfpa.org), local building codes, and your insurance policy.  If your insurance company discovered your [Rube Goldberg](http://en.wikipedia.org/wiki/Rube_Goldberg) contraption was the cause of personal injury or property damage, you could be found liable or negligent in a court of law.   
 
 
 Installation (New for SiriProxy 0.5.0+)
