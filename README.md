@@ -67,6 +67,10 @@ Installation (New for SiriProxy 0.5.0+)
 
 `vim ~/.siriproxy/config.yml`
 
+- Edit the piface-ioconfig.yml file to define your PiFace IO. **Note: Repeat all the following steps if you make additional changes.**    
+
+`vim siriproxy-piface/lib/piface-ioconfig.yml`
+
 - Edit the plugin as you wish. **Note: Repeat all the following steps if you make additional changes.**    
 
 `vim siriproxy-piface/lib/siriproxy-piface.rb`
