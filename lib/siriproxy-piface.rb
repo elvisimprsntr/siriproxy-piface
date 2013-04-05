@@ -11,7 +11,7 @@ class SiriProxy::Plugin::PiFace < SiriProxy::Plugin
 	@camUrl 	= config["camurls"]
   end
   
-######## Piface IO
+######## PiFace IO
 
   begin
   	@@pfio = YAML.load(File.read(File.expand_path(File.dirname( __FILE__ ) + "/piface-ioconfig.yml")))
