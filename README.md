@@ -32,7 +32,7 @@ Public Safety and Liability Warning
 Please do not ask me how to wire up various devices to the Piface board since: 
 
 - That is beyond the scope of this plugin. 
-- You need to consider the potential personal injury and property damage liability for using a RPi and PiFace in ways inconsistent with [National Fire Protection Agency (NFPA) - National Electric Code (NEC)](http://www.nfpa.org), local building codes, and your insurance policy.  If your insurance company discovered your [Rube Goldberg](http://en.wikipedia.org/wiki/Rube_Goldberg) contraption was the cause of personal injury or property damage, you could be found liable or negligent in a court of law.   
+- You need to consider the potential personal injury and property damage liability for using a RPi and PiFace in ways inconsistent with [National Fire Protection Agency (NFPA) - National Electric Code (NEC)](http://www.nfpa.org), local building codes, and your insurance policy.  If your insurance company discovered your [Rube Goldberg machine](http://en.wikipedia.org/wiki/Rube_Goldberg_machine) or [Heath Robinson contraption](http://en.wikipedia.org/wiki/Heath_Robinson) was the cause of personal injury or property damage, you could be found liable or even criminally negligent in a court of law.   
 
 
 Installation (New for SiriProxy 0.5.0+)
