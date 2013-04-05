@@ -8,15 +8,24 @@ Siriproxy-piface is a [SiriProxy] (https://github.com/plamoni/SiriProxy) plugin 
 
 First, you must have SiriProxy installed and working.  [HOW-TOs for SiriProxy] (https://github.com/plamoni/SiriProxy/wiki/Installation-How-Tos) 
 
+Second, you need a [PiFace Digital Interface Board](http://www.farnell.com/datasheets/1682890.pdf) and a [Raspberry Pi](http://www.raspberrypi.org)  
+
+Optionally, you can configure siriproxy-piface to push IP camera images to Siri.
+
+I used my RPi and PiFace board, along with SiriProry as a simple voice controlled garage door opener. 
+
 I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SB6A4AFSC5LFQ)  
 
 
-Raspberry Pi
-------------
+Raspberry Pi and PiFace Digital Interface
+-----------------------------------------
 
-The Raspberry Pi is an ARM based single board computer with a number of inputs and outputs, which can bed used to interface with the real world.
+The Raspberry Pi is an ARM based single board computer with a number of inputs and outputs, which can be used to interface with the real world.
+
+The PiFace Digital Interface Board has 8 digital inputs, 8 open collector outputs, 2 relays, 4 switches.  
+
 
 Installation (New for SiriProxy 0.5.0+)
 ---------------------------------------
@@ -73,6 +82,12 @@ Installation (New for SiriProxy 0.5.0+)
 
 Usage
 -----
+
+**Open|close garage**
+
+- Siri will push an image from your IP camera and check the status of the door.  If the door is already in the requested position, it will let you know.  
+- If the garage door is closed it will open without any need for confirmation.
+- If the door is open, Siri will ask you to confirm the door is clear before closing the door. Obviously, this was for safety reasons. 
 
 
 To Do List
