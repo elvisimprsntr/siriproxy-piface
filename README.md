@@ -14,6 +14,11 @@ Optionally, you can configure siriproxy-piface to push IP camera images to Siri.
 
 I used my RPi, PiFace IO board, along with SiriProry as a simple voice controlled garage door opener.   This plugin provides installation instructions and a basic shell for you to modify for your specific interests.  
 
+[Watch Demo Video](http://www.youtube.com/watch?v=cpBG9m3LDqI) 
+
+[![Video](http://img.youtube.com/vi/cpBG9m3LDqI/hqdefault.jpg)](http://www.youtube.com/watch?v=cpBG9m3LDqI)
+
+
 I have received offers to make a donation to help offset the cost of hardware and for my time.  If you feel so inclined you can donate thru PayPal.  
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SB6A4AFSC5LFQ)  
