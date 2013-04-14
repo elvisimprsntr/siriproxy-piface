@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "siriproxy-piface"
-  s.version     = "0.1.0"
+  s.version     = "0.2.0"
   s.authors     = ["elvisimprsntr"]
   s.email       = [""]
   s.homepage    = "https://github.com/elvisimprsntr/siriproxy-piface"
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency "siriproxy", ">=0.5.2"
-  s.add_runtime_dependency "piface", ">=0.3.1"
+  s.add_runtime_dependency "piface", ">=0.4.0"
 
 
 end

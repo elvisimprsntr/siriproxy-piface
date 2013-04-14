@@ -52,16 +52,6 @@ Installation (New for SiriProxy 0.5.0+)
 
 `vim /etc/modprobe.d/raspi-blacklist.conf`
 
-- Install the [C PiFace library dependancies](https://github.com/thomasmacpherson/piface) 
-
-`apt-get install automake libtool`
-
-`git clone https://github.com/thomasmacpherson/piface.git`
-
-`cd piface/c/`
-
-`./autogen.sh && ./configure && make && sudo make install`
- 
 - Create a plugins directory  
 
 `mkdir ~/plugins`  
